@@ -33,8 +33,8 @@ if ($run_query) {
                 <td><?php echo $element['name'] ?></td>
                 <td><?php echo $element['pass'] ?></td>
                 <td>
-                <a href="delete.php?code=<?php echo $element['id']; ?>" class="btn btn-danger btn-sm"> Delete  </a> |
-                <a href="updateForm.php?code=<?php echo $element['id']; ?>" class="btn btn-secondary btn-sm"> Update  </a>
+                <a href="delete.php?code=<?php echo $element['id']; ?>" class=""> Delete  </a> |
+                <a href="updateForm.php?code=<?php echo $element['id']; ?>" class=""> Update  </a>
 
                 </td>
 
